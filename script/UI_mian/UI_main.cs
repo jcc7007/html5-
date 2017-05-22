@@ -3,7 +3,7 @@ using UnityEngine.UI;
 using System.Collections;
 
 public class UI_main : MonoBehaviour {
-	public GameObject UIloading;//告诉玩家关卡还在开发中，请期待
+	public GameObject UIloading;//告诉玩家关卡还在开发中
 	int levelpassmount=0;
 	bool ananniu=true;
 	public GameObject[] gamelevelUI;//游戏关卡的UI通过不影藏
@@ -17,7 +17,7 @@ public class UI_main : MonoBehaviour {
 				}
 	}
 	
-	// Update is called once per frame
+
 
 	public void powerdownReturn()
 	{
